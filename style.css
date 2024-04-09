@@ -1,0 +1,41 @@
+#tr_store {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tr_none {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tr_current {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#holder {
+    border-spacing: 10px;
+}
+
+img {
+    border-radius: 200px;
+    height: 364px;
+    width: 364px;
+}
+
+button {
+    background-color: red;
+    border: 0px;
+    font-size: 50px;
+}
+
+td {
+    border-color: black;
+    border: 5px;
+}

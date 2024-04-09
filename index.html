@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<center>
+    <table width="1000" height="580">
+        <tr width="1000"><td style="vertical-align: top;">
+            <table id="q" border="10"  style="background-color: blue;" height="235" width="500">
+                <tr width="500" id="tr_store" height="50" style="background-color: blue; text-align: right; vertical-align: middle; ">
+                    <td id="store" style="font-size: 40px; color: yellow"></td>
+                </tr>
+                <tr id="tr_warning" height="70" style="background-color: blue; text-align: right; vertical-align: middle;">
+                    <td id="warning" style="font-size: 20px; color: lightgrey"></td>
+                </tr>
+                <tr id="tr_current" height="100" style="background-color: blue; text-align: right; vertical-align: middle;">
+                    <td id="current" style="font-size: 90px; vertical-align: middle;">0</td>
+                </tr>
+                <tr><td></td></tr>
+            </table>
+        </td></tr>
+        <tr><td style="vertical-align: bottom;">
+            <table style="background-color: yellow;" height="345" width="500">
+                <tr style="text-align: center; vertical-align: middle;">
+                    <td><button id="9" onclick="addNumber9()">9</button></td>
+                    <td><button id="8" onclick="addNumber8()">8</button></td>
+                    <td><button id="7" onclick="addNumber7()">7</button></td>
+                    <td><button id="/" onclick="addSign4()">/</button></td>
+                </tr>
+                <tr style="text-align: center; vertical-align: middle;">
+                    <td><button id="6" onclick="addNumber6()">6</button></td>
+                    <td><button id="5" onclick="addNumber5()">5</button></td>
+                    <td><button id="4" onclick="addNumber4()">4</button></td>
+                    <td><button id="X" onclick="addSign3()">X</button></td>
+                </tr>
+                <tr style="text-align: center; vertical-align: middle;">
+                    <td><button id="3" onclick="addNumber3()">3</button></td>
+                    <td><button id="2" onclick="addNumber2()">2</button></td>
+                    <td><button id="1" onclick="addNumber1()">1</button></td>
+                    <td><button id="-" onclick="addSign2()">-</button></td>
+                </tr>
+                <tr style="text-align: center; vertical-align: middle;">
+                    <td><button id="." onclick="addPoint()">.</button></td>
+                    <td><button id="0" onclick="addNumber0()">0</button></td>
+                    <td><button id="=" onclick="addSign5()">=</button></td>
+                    <td><button id="+" onclick="addSign1()">+</button></td>
+                </tr>
+            </table>
+        </td></tr>
+    </table>
+</center>
+</body>
+</html>
